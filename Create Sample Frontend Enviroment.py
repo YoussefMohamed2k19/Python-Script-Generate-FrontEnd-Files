@@ -10,6 +10,7 @@ for string in dirName:
     else:
         print (string +" Exist")
 
+# Create target files if don't exist
 filename = ['index.html', 'style.css', 'script.js']
 open(filename[0], 'w').close()
 
