@@ -6,7 +6,7 @@ while True:             # Loop continuously
   # Get the input
   if not os.path.exists(projectName):
     os.mkdir(projectName)
-    print ("\n" + "Your Project Folder Was Created..." + "\n")
+    print ("\n" + "Your Project Folder Was Creating..." + "\n")
     break
   else:
     print ("\n" + "This Project Name Already Used, Try Again!"+ "\n")
@@ -61,7 +61,7 @@ open(filename[1], 'w').close()
 os.chdir("../Js")
 open(filename[2], 'w').close()
 
-# 🎉 Finished msg 🎉 
-print("\n" + emoji.emojize('Done:tada:!', use_aliases=True))
-
+# 🎉 Finished msg 🎉
+# -*- coding: UTF-8 -*- 
+print("\n" + emoji.emojize('Done!🎉🎉', use_aliases=True))
 os.system("pause")
